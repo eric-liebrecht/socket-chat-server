@@ -46,8 +46,4 @@ public class ClientRegistry {
     public static CopyOnWriteArrayList<ClientHandler> getRegisteredClients() {
         return registeredClients;
     }
-
-    private static boolean isClientRegistered(ClientHandler clientHandler) {
-        return registeredClients.contains(clientHandler);
-    }
 }

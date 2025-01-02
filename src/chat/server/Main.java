@@ -1,6 +1,4 @@
-import chat.server.ChatServer;
-
-import java.io.IOException;
+package chat.server;
 
 public class Main {
     public static void main(String[] args) {
