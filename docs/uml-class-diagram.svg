@@ -1,0 +1,377 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+     height="686px" preserveAspectRatio="none" style="width:2196px;height:686px;background:#FFFFFF;" version="1.1"
+     viewBox="0 0 2196 686" width="2196px" zoomAndPan="magnify">
+    <defs/>
+    <g><!--class ChatServer-->
+        <g id="elem_ChatServer">
+            <rect codeLine="1" fill="#F1F1F1" height="113.1875" id="ChatServer" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="300.4629" x="791.5" y="7"/>
+            <ellipse cx="898.168" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M901.1367,28.6406 Q900.5586,28.9375 899.918,29.0781 Q899.2773,29.2344 898.5742,29.2344 Q896.0742,29.2344 894.7461,27.5938 Q893.4336,25.9375 893.4336,22.8125 Q893.4336,19.6875 894.7461,18.0313 Q896.0742,16.375 898.5742,16.375 Q899.2773,16.375 899.918,16.5313 Q900.5742,16.6875 901.1367,16.9844 L901.1367,19.7031 Q900.5117,19.125 899.918,18.8594 Q899.3242,18.5781 898.6992,18.5781 Q897.3555,18.5781 896.668,19.6563 Q895.9805,20.7188 895.9805,22.8125 Q895.9805,24.9063 896.668,25.9844 Q897.3555,27.0469 898.6992,27.0469 Q899.3242,27.0469 899.918,26.7813 Q900.5117,26.5 901.1367,25.9219 L901.1367,28.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78.627"
+                  x="918.668" y="27.8467">ChatServer
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="792.5" x2="1090.9629" y1="39" y2="39"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="799.5" y="49.6484"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51.3994"
+                  x="811.5" y="55.9951">int port
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="799.5" y="65.9453"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="274.4629"
+                  x="811.5" y="72.292">ExecutorService virtualThreadExecutor
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="792.5" x2="1090.9629" y1="79.5938" y2="79.5938"/>
+            <ellipse cx="802.5" cy="93.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140.9502"
+                  x="811.5" y="96.5889">ChatServer(int port)
+            </text>
+            <ellipse cx="802.5" cy="109.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77.6084"
+                  x="811.5" y="112.8857">void start()
+            </text>
+        </g><!--class ClientHandler-->
+        <g id="elem_ClientHandler">
+            <rect codeLine="8" fill="#F1F1F1" height="227.2656" id="ClientHandler" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="275.1768" x="804" y="197"/>
+            <ellipse cx="889.5107" cy="213" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M892.4795,218.6406 Q891.9014,218.9375 891.2607,219.0781 Q890.6201,219.2344 889.917,219.2344 Q887.417,219.2344 886.0889,217.5938 Q884.7764,215.9375 884.7764,212.8125 Q884.7764,209.6875 886.0889,208.0313 Q887.417,206.375 889.917,206.375 Q890.6201,206.375 891.2607,206.5313 Q891.917,206.6875 892.4795,206.9844 L892.4795,209.7031 Q891.8545,209.125 891.2607,208.8594 Q890.667,208.5781 890.042,208.5781 Q888.6982,208.5781 888.0107,209.6563 Q887.3232,210.7188 887.3232,212.8125 Q887.3232,214.9063 888.0107,215.9844 Q888.6982,217.0469 890.042,217.0469 Q890.667,217.0469 891.2607,216.7813 Q891.8545,216.5 892.4795,215.9219 L892.4795,218.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95.6553"
+                  x="910.0107" y="217.8467">ClientHandler
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="805" x2="1078.1768" y1="229" y2="229"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="812" y="239.6484"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97.5762"
+                  x="824" y="245.9951">Socket socket
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="812" y="255.9453"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127.5928"
+                  x="824" y="262.292">BufferedReader in
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="812" y="272.2422"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103.1748"
+                  x="824" y="278.5889">PrintWriter out
+            </text>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="812" y="288.5391"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="242.04"
+                  x="824" y="294.8857">String clientName = "Anonymous"
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="805" x2="1078.1768" y1="302.1875" y2="302.1875"/>
+            <ellipse cx="815" cy="315.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204.1553"
+                  x="824" y="319.1826">ClientHandler(Socket socket)
+            </text>
+            <ellipse cx="815" cy="332.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68.5029"
+                  x="824" y="335.4795">void run()
+            </text>
+            <ellipse cx="815" cy="348.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161.9775"
+                  x="824" y="351.7764">String getClientName()
+            </text>
+            <ellipse cx="815" cy="364.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249.1768"
+                  x="824" y="368.0732">void sendMessage(String message)
+            </text>
+            <rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="812" y="378.0234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207.4023"
+                  x="824" y="384.3701">void showWelcomeMessage()
+            </text>
+            <rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="812" y="394.3203"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="224.6221"
+                  x="824" y="400.667">void showAvailableCommands()
+            </text>
+            <rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="812" y="410.6172"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160.2754"
+                  x="824" y="416.9639">void closeConnection()
+            </text>
+        </g><!--class ClientRegistry-->
+        <g id="elem_ClientRegistry">
+            <rect codeLine="22" fill="#F1F1F1" height="178.375" id="ClientRegistry" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="633.5166" x="121.5" y="501"/>
+            <ellipse cx="384.7725" cy="517" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M387.7412,522.6406 Q387.1631,522.9375 386.5225,523.0781 Q385.8818,523.2344 385.1787,523.2344 Q382.6787,523.2344 381.3506,521.5938 Q380.0381,519.9375 380.0381,516.8125 Q380.0381,513.6875 381.3506,512.0313 Q382.6787,510.375 385.1787,510.375 Q385.8818,510.375 386.5225,510.5313 Q387.1787,510.6875 387.7412,510.9844 L387.7412,513.7031 Q387.1162,513.125 386.5225,512.8594 Q385.9287,512.5781 385.3037,512.5781 Q383.96,512.5781 383.2725,513.6563 Q382.585,514.7188 382.585,516.8125 Q382.585,518.9063 383.2725,519.9844 Q383.96,521.0469 385.3037,521.0469 Q385.9287,521.0469 386.5225,520.7813 Q387.1162,520.5 387.7412,519.9219 L387.7412,522.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98.4717"
+                  x="405.2725" y="521.8467">ClientRegistry
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="122.5" x2="754.0166" y1="533" y2="533"/>
+            <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="129.5" y="543.6484"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="441.499"
+                  x="141.5" y="549.9951">static CopyOnWriteArrayList&lt;ClientHandler&gt; registeredClients
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="122.5" x2="754.0166" y1="557.2969" y2="557.2969"/>
+            <ellipse cx="132.5" cy="570.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="335.8701"
+                  x="141.5" y="574.292">static void register(ClientHandler clientHandler)
+            </text>
+            <ellipse cx="132.5" cy="587.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="353.6162"
+                  x="141.5" y="590.5889">static void unregister(ClientHandler clientHandler)
+            </text>
+            <ellipse cx="132.5" cy="603.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="423.8145"
+                  x="141.5" y="606.8857">static void broadcast(ClientHandler sender, String message)
+            </text>
+            <ellipse cx="132.5" cy="619.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="607.5166"
+                  x="141.5" y="623.1826">static void sendPrivate(ClientHandler sender, ClientHandler recipient, String
+                message)
+            </text>
+            <ellipse cx="132.5" cy="636.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="305.2793"
+                  x="141.5" y="639.4795">static String getRegisteredClientsAsString()
+            </text>
+            <ellipse cx="132.5" cy="652.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="479.3838"
+                  x="141.5" y="655.7764">static CopyOnWriteArrayList&lt;ClientHandler&gt; getRegisteredClients()
+            </text>
+            <rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1;" width="6" x="129.5" y="665.7266"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="435.4014"
+                  x="141.5" y="672.0732">static boolean isClientRegistered(ClientHandler clientHandler)
+            </text>
+        </g><!--class ClientConnectionInterruptedException-->
+        <g id="elem_ClientConnectionInterruptedException">
+            <rect codeLine="33" fill="#F1F1F1" height="64.2969" id="ClientConnectionInterruptedException" rx="2.5"
+                  ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="305.1797" x="1505" y="558"/>
+            <ellipse cx="1522.2157" cy="574" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1525.1845,579.6406 Q1524.6063,579.9375 1523.9657,580.0781 Q1523.3251,580.2344 1522.622,580.2344 Q1520.122,580.2344 1518.7938,578.5938 Q1517.4813,576.9375 1517.4813,573.8125 Q1517.4813,570.6875 1518.7938,569.0313 Q1520.122,567.375 1522.622,567.375 Q1523.3251,567.375 1523.9657,567.5313 Q1524.622,567.6875 1525.1845,567.9844 L1525.1845,570.7031 Q1524.5595,570.125 1523.9657,569.8594 Q1523.372,569.5781 1522.747,569.5781 Q1521.4032,569.5781 1520.7157,570.6563 Q1520.0282,571.7188 1520.0282,573.8125 Q1520.0282,575.9063 1520.7157,576.9844 Q1521.4032,578.0469 1522.747,578.0469 Q1523.372,578.0469 1523.9657,577.7813 Q1524.5595,577.5 1525.1845,576.9219 L1525.1845,579.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="268.2559"
+                  x="1536.7081" y="578.8467">ClientConnectionInterruptedException
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1506" x2="1809.1797" y1="590" y2="590"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1506" x2="1809.1797" y1="598" y2="598"/>
+            <ellipse cx="1516" cy="611.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="279.1797"
+                  x="1525" y="614.9951">ClientConnectionInterruptedException()
+            </text>
+        </g><!--class RuntimeException-->
+        <g id="elem_RuntimeException">
+            <rect fill="#F1F1F1" height="48" id="RuntimeException" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="160.249" x="1577.5" y="286.5"/>
+            <ellipse cx="1592.5" cy="302.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1595.4688,308.1406 Q1594.8906,308.4375 1594.25,308.5781 Q1593.6094,308.7344 1592.9063,308.7344 Q1590.4063,308.7344 1589.0781,307.0938 Q1587.7656,305.4375 1587.7656,302.3125 Q1587.7656,299.1875 1589.0781,297.5313 Q1590.4063,295.875 1592.9063,295.875 Q1593.6094,295.875 1594.25,296.0313 Q1594.9063,296.1875 1595.4688,296.4844 L1595.4688,299.2031 Q1594.8438,298.625 1594.25,298.3594 Q1593.6563,298.0781 1593.0313,298.0781 Q1591.6875,298.0781 1591,299.1563 Q1590.3125,300.2188 1590.3125,302.3125 Q1590.3125,304.4063 1591,305.4844 Q1591.6875,306.5469 1593.0313,306.5469 Q1593.6563,306.5469 1594.25,306.2813 Q1594.8438,306 1595.4688,305.4219 L1595.4688,308.1406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128.249"
+                  x="1606.5" y="307.3467">RuntimeException
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1578.5" x2="1736.749" y1="318.5" y2="318.5"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1578.5" x2="1736.749" y1="326.5" y2="326.5"/>
+        </g><!--class UnknownCommandException-->
+        <g id="elem_UnknownCommandException">
+            <rect codeLine="37" fill="#F1F1F1" height="64.2969" id="UnknownCommandException" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="359.1221" x="1111" y="558"/>
+            <ellipse cx="1183.2661" cy="574" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1186.2349,579.6406 Q1185.6567,579.9375 1185.0161,580.0781 Q1184.3755,580.2344 1183.6724,580.2344 Q1181.1724,580.2344 1179.8442,578.5938 Q1178.5317,576.9375 1178.5317,573.8125 Q1178.5317,570.6875 1179.8442,569.0313 Q1181.1724,567.375 1183.6724,567.375 Q1184.3755,567.375 1185.0161,567.5313 Q1185.6724,567.6875 1186.2349,567.9844 L1186.2349,570.7031 Q1185.6099,570.125 1185.0161,569.8594 Q1184.4224,569.5781 1183.7974,569.5781 Q1182.4536,569.5781 1181.7661,570.6563 Q1181.0786,571.7188 1181.0786,573.8125 Q1181.0786,575.9063 1181.7661,576.9844 Q1182.4536,578.0469 1183.7974,578.0469 Q1184.4224,578.0469 1185.0161,577.7813 Q1185.6099,577.5 1186.2349,576.9219 L1186.2349,579.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206.0898"
+                  x="1203.7661" y="578.8467">UnknownCommandException
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1112" x2="1469.1221" y1="590" y2="590"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1112" x2="1469.1221" y1="598" y2="598"/>
+            <ellipse cx="1122" cy="611.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="333.1221"
+                  x="1131" y="614.9951">UnknownCommandException(String command)
+            </text>
+        </g><!--class UnknownRecipientException-->
+        <g id="elem_UnknownRecipientException">
+            <rect codeLine="41" fill="#F1F1F1" height="64.2969" id="UnknownRecipientException" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="344.6777" x="1845" y="558"/>
+            <ellipse cx="1913.1816" cy="574" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1916.1504,579.6406 Q1915.5723,579.9375 1914.9316,580.0781 Q1914.291,580.2344 1913.5879,580.2344 Q1911.0879,580.2344 1909.7598,578.5938 Q1908.4473,576.9375 1908.4473,573.8125 Q1908.4473,570.6875 1909.7598,569.0313 Q1911.0879,567.375 1913.5879,567.375 Q1914.291,567.375 1914.9316,567.5313 Q1915.5879,567.6875 1916.1504,567.9844 L1916.1504,570.7031 Q1915.5254,570.125 1914.9316,569.8594 Q1914.3379,569.5781 1913.7129,569.5781 Q1912.3691,569.5781 1911.6816,570.6563 Q1910.9941,571.7188 1910.9941,573.8125 Q1910.9941,575.9063 1911.6816,576.9844 Q1912.3691,578.0469 1913.7129,578.0469 Q1914.3379,578.0469 1914.9316,577.7813 Q1915.5254,577.5 1916.1504,576.9219 L1916.1504,579.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199.8145"
+                  x="1933.6816" y="578.8467">UnknownRecipientException
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1846" x2="2188.6777" y1="590" y2="590"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1846" x2="2188.6777" y1="598" y2="598"/>
+            <ellipse cx="1856" cy="611.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="318.6777"
+                  x="1865" y="614.9951">UnknownRecipientException(String recipient)
+            </text>
+        </g><!--class Socket-->
+        <g id="elem_Socket">
+            <rect fill="#F1F1F1" height="48" id="Socket" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="79.3594" x="7" y="566"/>
+            <ellipse cx="22" cy="582" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M24.9688,587.6406 Q24.3906,587.9375 23.75,588.0781 Q23.1094,588.2344 22.4063,588.2344 Q19.9063,588.2344 18.5781,586.5938 Q17.2656,584.9375 17.2656,581.8125 Q17.2656,578.6875 18.5781,577.0313 Q19.9063,575.375 22.4063,575.375 Q23.1094,575.375 23.75,575.5313 Q24.4063,575.6875 24.9688,575.9844 L24.9688,578.7031 Q24.3438,578.125 23.75,577.8594 Q23.1563,577.5781 22.5313,577.5781 Q21.1875,577.5781 20.5,578.6563 Q19.8125,579.7188 19.8125,581.8125 Q19.8125,583.9063 20.5,584.9844 Q21.1875,586.0469 22.5313,586.0469 Q23.1563,586.0469 23.75,585.7813 Q24.3438,585.5 24.9688,584.9219 L24.9688,587.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47.3594"
+                  x="36" y="586.8467">Socket
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="85.3594" y1="598" y2="598"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="85.3594" y1="606" y2="606"/>
+        </g><!--class BufferedReader-->
+        <g id="elem_BufferedReader">
+            <rect fill="#F1F1F1" height="48" id="BufferedReader" rx="2.5" ry="2.5"
+                  style="stroke:#181818;stroke-width:0.5;" width="142.3799" x="790.5" y="566"/>
+            <ellipse cx="805.5" cy="582" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M808.4688,587.6406 Q807.8906,587.9375 807.25,588.0781 Q806.6094,588.2344 805.9063,588.2344 Q803.4063,588.2344 802.0781,586.5938 Q800.7656,584.9375 800.7656,581.8125 Q800.7656,578.6875 802.0781,577.0313 Q803.4063,575.375 805.9063,575.375 Q806.6094,575.375 807.25,575.5313 Q807.9063,575.6875 808.4688,575.9844 L808.4688,578.7031 Q807.8438,578.125 807.25,577.8594 Q806.6563,577.5781 806.0313,577.5781 Q804.6875,577.5781 804,578.6563 Q803.3125,579.7188 803.3125,581.8125 Q803.3125,583.9063 804,584.9844 Q804.6875,586.0469 806.0313,586.0469 Q806.6563,586.0469 807.25,585.7813 Q807.8438,585.5 808.4688,584.9219 L808.4688,587.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110.3799"
+                  x="819.5" y="586.8467">BufferedReader
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="791.5" x2="931.8799" y1="598" y2="598"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="791.5" x2="931.8799" y1="606" y2="606"/>
+        </g><!--class PrintWriter-->
+        <g id="elem_PrintWriter">
+            <rect fill="#F1F1F1" height="48" id="PrintWriter" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="107.7969" x="967.5" y="566"/>
+            <ellipse cx="982.5" cy="582" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M985.4688,587.6406 Q984.8906,587.9375 984.25,588.0781 Q983.6094,588.2344 982.9063,588.2344 Q980.4063,588.2344 979.0781,586.5938 Q977.7656,584.9375 977.7656,581.8125 Q977.7656,578.6875 979.0781,577.0313 Q980.4063,575.375 982.9063,575.375 Q983.6094,575.375 984.25,575.5313 Q984.9063,575.6875 985.4688,575.9844 L985.4688,578.7031 Q984.8438,578.125 984.25,577.8594 Q983.6563,577.5781 983.0313,577.5781 Q981.6875,577.5781 981,578.6563 Q980.3125,579.7188 980.3125,581.8125 Q980.3125,583.9063 981,584.9844 Q981.6875,586.0469 983.0313,586.0469 Q983.6563,586.0469 984.25,585.7813 Q984.8438,585.5 985.4688,584.9219 L985.4688,587.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75.7969"
+                  x="996.5" y="586.8467">PrintWriter
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="968.5" x2="1074.2969" y1="598" y2="598"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="968.5" x2="1074.2969" y1="606" y2="606"/>
+        </g><!--reverse link RuntimeException to ClientConnectionInterruptedException-->
+        <g id="link_RuntimeException_ClientConnectionInterruptedException">
+            <path d="M1657.5,352.68 C1657.5,402.44 1657.5,501.52 1657.5,557.76 " fill="none"
+                  id="RuntimeException-backto-ClientConnectionInterruptedException"
+                  style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1657.5,334.68,1651.5,352.68,1663.5,352.68,1657.5,334.68"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link RuntimeException to UnknownCommandException-->
+        <g id="link_RuntimeException_UnknownCommandException">
+            <path d="M1597.3372,343.2029 C1549.0972,369.2929 1486.54,405.83 1425.5,454 C1384.91,486.03 1343.66,529.16 1317.62,557.96 "
+                  fill="none" id="RuntimeException-backto-UnknownCommandException"
+                  style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1613.17,334.64,1594.4829,337.9254,1600.1916,348.4805,1613.17,334.64"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link RuntimeException to UnknownRecipientException-->
+        <g id="link_RuntimeException_UnknownRecipientException">
+            <path d="M1701.8258,345.6696 C1766.4658,395.4996 1904.41,501.83 1977.26,557.98 " fill="none"
+                  id="RuntimeException-backto-UnknownRecipientException" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1687.57,334.68,1698.1626,350.4215,1705.489,340.9177,1687.57,334.68"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--link ChatServer to ClientHandler-->
+        <g id="link_ChatServer_ClientHandler">
+            <path codeLine="45" d="M941.5,132.09 C941.5,154.82 941.5,163.99 941.5,190.55 " fill="none"
+                  id="ChatServer-ClientHandler" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="941.5,120.09,937.5,126.09,941.5,132.09,945.5,126.09,941.5,120.09"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818" points="941.5,196.55,945.5,187.55,941.5,191.55,937.5,187.55,941.5,196.55"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59.8584"
+                  x="942.5" y="163.0669">manages
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8.271"
+                  x="932.9752" y="140.3649">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6.5"
+                  x="935.3182" y="185.8322">*
+            </text>
+        </g><!--reverse link ClientHandler to Socket-->
+        <g id="link_ClientHandler_Socket">
+            <path codeLine="46"
+                  d="M791.791,331.53 C584.191,361.24 215.5,422.85 103.5,501 C80.51,517.04 64.55,545.63 55.49,565.86 "
+                  fill="none" id="ClientHandler-backto-Socket" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="803.67,329.83,797.1638,326.7204,791.791,331.53,798.2972,334.6397,803.67,329.83"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29.7832"
+                  x="198.5" y="467.0669">uses
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8.271"
+                  x="787.9162" y="327.5402">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8.271"
+                  x="48.7574" y="554.8362">1
+            </text>
+        </g><!--reverse link ClientHandler to BufferedReader-->
+        <g id="link_ClientHandler_BufferedReader">
+            <path codeLine="47" d="M905.6361,435.9005 C890.4961,488.4205 877.2,534.54 868.2,565.76 " fill="none"
+                  id="ClientHandler-backto-BufferedReader" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none"
+                     points="908.96,424.37,903.4546,429.0273,905.6361,435.9005,911.1415,431.2432,908.96,424.37"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71.0049"
+                  x="900.5" y="467.0669">reads from
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8.271"
+                  x="898.6222" y="444.2079">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8.271"
+                  x="860.8449" y="555.1065">1
+            </text>
+        </g><!--reverse link ClientHandler to PrintWriter-->
+        <g id="link_ClientHandler_PrintWriter">
+            <path codeLine="48" d="M977.3639,435.9005 C992.5039,488.4205 1005.8,534.54 1014.8,565.76 " fill="none"
+                  id="ClientHandler-backto-PrintWriter" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none"
+                     points="974.04,424.37,971.8585,431.2432,977.3639,435.9005,979.5454,429.0273,974.04,424.37"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56.6401"
+                  x="986.5" y="467.0669">writes to
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8.271"
+                  x="967.8714" y="444.2079">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8.271"
+                  x="1004.2497" y="555.1065">1
+            </text>
+        </g><!--reverse link ClientRegistry to ClientHandler-->
+        <g id="link_ClientRegistry_ClientHandler">
+            <path codeLine="49" d="M608.8067,495.0426 C674.8467,458.6026 740.17,422.57 803.72,387.51 " fill="none"
+                  id="ClientRegistry-backto-ClientHandler" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="598.3,500.84,605.4858,501.4435,608.8067,495.0426,601.6208,494.4391,598.3,500.84"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64.1685"
+                  x="676.5" y="467.0669">maintains
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8.271"
+                  x="603.2334" y="489.8922">1
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23.0356"
+                  x="773.0191" y="388.1576">0..*
+            </text>
+        </g><!--link ClientHandler to ClientRegistry-->
+        <g id="link_ClientHandler_ClientRegistry">
+            <path codeLine="51"
+                  d="M803.99,365 C746.22,389.44 679.18,420.42 621.5,454 C597.62,467.91 577.9872,480.8054 554.9872,497.2854 "
+                  fill="none" id="ClientHandler-to-ClientRegistry" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="550.11,500.78,559.7556,498.7895,554.1744,497.8678,555.0961,492.2865,550.11,500.78"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29.7832"
+                  x="622.5" y="467.0669">uses
+            </text>
+        </g><!--link ClientHandler to ClientConnectionInterruptedException-->
+        <g id="link_ClientHandler_ClientConnectionInterruptedException">
+            <path codeLine="52"
+                  d="M1079.12,364.75 C1164.93,397.17 1277.96,438.47 1379.5,471 C1426.94,486.2 1441.13,482.79 1487.5,501 C1528.02,516.92 1566.35,536.6672 1599.23,555.0072 "
+                  fill="none" id="ClientHandler-to-ClientConnectionInterruptedException"
+                  style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1604.47,557.93,1598.5586,550.0525,1600.1034,555.4943,1594.6615,557.0391,1604.47,557.93"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44.04"
+                  x="1380.5" y="467.0669">throws
+            </text>
+        </g><!--link ClientHandler to UnknownCommandException-->
+        <g id="link_ClientHandler_UnknownCommandException">
+            <path codeLine="53" d="M1079.18,420.98 C1141.14,470.24 1204.8942,520.9252 1246.6242,554.1152 " fill="none"
+                  id="ClientHandler-to-UnknownCommandException" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1251.32,557.85,1246.7661,549.1172,1247.4068,554.7376,1241.7863,555.3783,1251.32,557.85"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44.04"
+                  x="1137.5" y="467.0669">throws
+            </text>
+        </g><!--link ClientHandler to UnknownRecipientException-->
+        <g id="link_ClientHandler_UnknownRecipientException">
+            <path codeLine="54"
+                  d="M1079.11,331.17 C1255.51,358.58 1569.38,414.82 1827.5,501 C1873.19,516.25 1917.126,536.5818 1954.056,555.2618 "
+                  fill="none" id="ClientHandler-to-UnknownRecipientException" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1959.41,557.97,1953.1844,550.3384,1954.9483,555.7132,1949.5735,557.4771,1959.41,557.97"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44.04"
+                  x="1710.5" y="467.0669">throws
+            </text>
+        </g><!--SRC=[dLHTZzem47pFhrZbALoFK_kAsfCeEgcL-YLeTS_6MS2wn8xM6pXqwd-ldJYGX02zGq99TcTcxVLuPIQiXTb6y09fYmGl4RZV69HcA0nn-7nuHbco8OzI4c6hY4kH_TuGYhH9LjXtBRMaKHc5rDQe52mBucGK_OqYMPVF56h-8dIQjLQmCF896Mpr2B7FvMg5XEdSLNLGfKFy5xbAZwJO1KtPe1VimckGbVmFaIDyWdYgZTxdfhHniznszQHJjRDiAdNI18Bo6dbs44-wcqITVaThnHgJWCxhpr5ONGtRcDqZPjBasA1FyjEjK9bOPZWpUUwMQRiGcHdhKbgZP6NqQMFdk5QMQN_eh3i0LX9cfjZ_r5NNfaHY_ysXFdQwSGzKSNtBwuGDUmmITMC29kcUesn_ZGPufNuhSqb6f59OxX5zqv5kOQZXNGMFTARP2iOp6jqeeLI53rmHFnfZtk_SrDR9f4VvdsCOqZku8EWiZSbGQ52sVUoUSBczFRSSdVHLEpQL1QExuH8B7mDyPjSW2_DIiyhnc7ZfNAVBAcsF_j5FsknqyFOh2fqXDhTDrl7JIlFcA5zVwvJQL3luewhNcgVnXnZCU7mFyKtSyzG4t0ATXMpKZGTAzGpZQ0AblOZh3SO9-BbiOKKcly1gZyq9xFoB1JPHRsvuw8sdlB-x6zo5Kt5_6_LA-Mttf0OtSiHTCTy4U4DcDyG_PwFhb04_DAH_]-->
+    </g>
+</svg>

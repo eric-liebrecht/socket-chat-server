@@ -1,0 +1,58 @@
+@startuml
+
+class ChatServer {
+    - int port
+    - ExecutorService virtualThreadExecutor
+    + ChatServer(int port)
+    + void start()
+}
+
+class ClientHandler {
+    - Socket socket
+    - BufferedReader in
+    - PrintWriter out
+    - String clientName = "Anonymous"
+    + ClientHandler(Socket socket)
+    + void run()
+    + String getClientName()
+    + void sendMessage(String message)
+    - void showWelcomeMessage()
+    - void showAvailableCommands()
+    - void closeConnection()
+}
+
+class ClientRegistry {
+    - static CopyOnWriteArrayList<ClientHandler> registeredClients
+    + static void register(ClientHandler clientHandler)
+    + static void unregister(ClientHandler clientHandler)
+    + static void broadcast(ClientHandler sender, String message)
+    + static void sendPrivate(ClientHandler sender, ClientHandler recipient, String message)
+    + static String getRegisteredClientsAsString()
+    + static CopyOnWriteArrayList<ClientHandler> getRegisteredClients()
+    - static boolean isClientRegistered(ClientHandler clientHandler)
+}
+
+class ClientConnectionInterruptedException extends RuntimeException {
+    + ClientConnectionInterruptedException()
+}
+
+class UnknownCommandException extends RuntimeException {
+    + UnknownCommandException(String command)
+}
+
+class UnknownRecipientException extends RuntimeException {
+    + UnknownRecipientException(String recipient)
+}
+
+ChatServer "1" o--> "*" ClientHandler : manages
+ClientHandler "1" o-- "1" Socket : uses
+ClientHandler "1" o-- "1" BufferedReader : reads from
+ClientHandler "1" o-- "1" PrintWriter : writes to
+ClientRegistry "1" *-- "0..*" ClientHandler : maintains
+
+ClientHandler --> ClientRegistry : uses
+ClientHandler --> ClientConnectionInterruptedException : throws
+ClientHandler --> UnknownCommandException : throws
+ClientHandler --> UnknownRecipientException : throws
+
+@enduml
